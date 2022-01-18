@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "163182958637",
+    "project_id": "papafam-ios-app",
+    "storage_bucket": "papafam-ios-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163182958637:android:038b35ffb0cc8ba4d000a4",
+        "android_client_info": {
+          "package_name": "host.exp.exponent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163182958637-4k8gkk3armdt15tfreisito2ead4pa5v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "host.exp.exponent",
+            "certificate_hash": "5a5fdb571079ce1a8e0718635c8cf93d8c674a0c"
+          }
+        },
+        {
+          "client_id": "163182958637-rfhmpohkcmu90v28blfdq2es1grpfrvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX0ZNiBBLYvJ0YprjNeMC6rQMu6v05EOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163182958637-rfhmpohkcmu90v28blfdq2es1grpfrvd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "163182958637-ge886u6dj6a2uqb31pfvkl6f3jtd3h1r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
