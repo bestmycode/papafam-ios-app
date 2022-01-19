@@ -36,29 +36,43 @@ const HomeScreen = () => {
 			{/* End of Header */}
 
 			{/* Zero to Full Stack Hero */}
-			<View style={tw`flex flex-col py- items-center`}>
-				<Image style={tw`h-20 w-30`} source={require('../assets/zero.jpeg')} />
+			<View style={tw`flex items-center m-5`}>
+				<TouchableOpacity>
+					<Image
+						style={tw`h-32 w-56`}
+						source={require('../assets/zero.jpeg')}
+					/>
+				</TouchableOpacity>
+			</View>
 
-				{/* Mastermind */}
+			{/* Mastermind */}
+			<View style={tw`flex items-center m-5`}>
+				<TouchableOpacity>
+					<Image
+						style={tw`h-32 w-56`}
+						source={require('../assets/mastermind.jpeg')}
+					/>
+				</TouchableOpacity>
+			</View>
 
-				<Image
-					style={tw`h-20 w-20 rounded-full`}
-					source={require('../assets/mastermind.jpeg')}
-				/>
+			{/* Mentorship */}
+			<View style={tw`flex items-center m-5`}>
+				<TouchableOpacity>
+					<Image
+						style={tw`h-32 w-56`}
+						source={require('../assets/mentorship.png')}
+					/>
+				</TouchableOpacity>
+			</View>
 
-				{/* Mentorship */}
-
-				<Image
-					style={tw`h-20 w-20 rounded-full`}
-					source={require('../assets/mentorship.png')}
-				/>
-
-				{/* Github */}
-
-				<Image
-					style={tw`h-20 w-20 rounded-full`}
-					source={require('../assets/github.jpeg')}
-				/>
+			{/* Github */}
+			<View style={tw`flex items-center m-5`}>
+				<TouchableOpacity>
+					<Image
+						style={tw`h-32 w-56`}
+						source={require('../assets/github.jpeg')}
+					/>
+				</TouchableOpacity>
 			</View>
 		</SafeAreaView>
 	);
