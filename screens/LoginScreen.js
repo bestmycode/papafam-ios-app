@@ -18,7 +18,7 @@ const LoginScreen = () => {
 			<ImageBackground
 				resizeMode="cover"
 				style={tw`flex-1`}
-				source={require('../papareactlogo.png')}
+				source={require('../assets/papareactlogo.png')}
 			>
 				<TouchableOpacity
 					style={[

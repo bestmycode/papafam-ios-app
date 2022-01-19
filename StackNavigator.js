@@ -3,6 +3,7 @@ import React from 'react';
 import useAuth from './hooks/useAuth';
 import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
+import TestimonialScreen from './screens/TestimonialScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,7 +18,10 @@ const StackNavigator = () => {
 		>
 			<Stack.Group>
 				{user ? (
-					<Stack.Screen name="Home" component={HomeScreen} />
+					<>
+						<Stack.Screen name="Home" component={HomeScreen} />
+						<Stack.Screen name="Testimonial" component={TestimonialScreen} />
+					</>
 				) : (
 					<Stack.Screen name="Login" component={LoginScreen} />
 				)}
