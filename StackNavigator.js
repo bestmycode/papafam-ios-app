@@ -6,6 +6,7 @@ import HeroScreen from './screens/HeroScreen';
 import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import MastermindScreen from './screens/MastermindScreen';
+import MastermindVideos from './screens/MastermindVideos';
 import MentorshipScreen from './screens/MentorshipScreen';
 import MentorshipVideos from './screens/MentorshipVideos';
 import TestimonialScreen from './screens/TestimonialScreen';
@@ -31,6 +32,10 @@ const StackNavigator = () => {
 						<Stack.Screen
 							name="MentorshipVideos"
 							component={MentorshipVideos}
+						/>
+						<Stack.Screen
+							name="MastermindVideos"
+							component={MastermindVideos}
 						/>
 						<Stack.Screen name="Github" component={GithubScreen} />
 						<Stack.Screen name="Testimonial" component={TestimonialScreen} />
