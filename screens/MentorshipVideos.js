@@ -1,23 +1,42 @@
-import { View, Text, SafeAreaView } from 'react-native';
+import { View, Text, SafeAreaView, StyleSheet } from 'react-native';
 import React from 'react';
 import Header from '../components/Header';
-import Video from 'react-native-video';
+import { Video } from 'expo-av';
+import tw from 'tailwind-react-native-classnames';
+import YoutubePlayer from 'react-native-youtube-iframe';
 
 const MentorshipVideos = () => {
+	const video = React.useRef(null);
+	const [status, setStatus] = React.useState({});
 	return (
 		<SafeAreaView>
 			<Header title="Mentorship Videos" />
+			<View style={tw`m-5`}>
+				<YoutubePlayer
+					style={tw``}
+					height={200}
+					play={false}
+					videoId={'CSQgyKRj_Fo'}
+				/>
+			</View>
 
-			<Video
-				source={{
-					uri: 'https://www.youtube.com/watch?v=I2dcpatq54o&t=9409s',
-				}}
-				style={{ width: 300, height: 300 }}
-				controls={true}
-				ref={(ref) => {
-					this.player = ref;
-				}}
-			/>
+			<View style={tw`m-5`}>
+				<YoutubePlayer
+					style={tw``}
+					height={200}
+					play={false}
+					videoId={'gFvr_9MCfsw'}
+				/>
+			</View>
+
+			<View style={tw`m-5`}>
+				<YoutubePlayer
+					style={tw``}
+					height={200}
+					play={false}
+					videoId={'VA-UN_6oNG8'}
+				/>
+			</View>
 		</SafeAreaView>
 	);
 };
