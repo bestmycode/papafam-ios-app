@@ -64,6 +64,16 @@ const MentorshipScreen = () => {
 						</Text>
 					</TouchableOpacity>
 				</View>
+				<View>
+					<TouchableOpacity
+						style={tw`w-64 p-3 rounded-xl mt-5 bg-red-400`}
+						onPress={() => navigation.navigate('MentorshipVideos')}
+					>
+						<Text style={tw`text-center text-white text-xl`}>
+							Previous Mentorship Calls
+						</Text>
+					</TouchableOpacity>
+				</View>
 			</View>
 		</SafeAreaView>
 	);

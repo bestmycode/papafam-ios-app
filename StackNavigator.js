@@ -7,6 +7,7 @@ import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import MastermindScreen from './screens/MastermindScreen';
 import MentorshipScreen from './screens/MentorshipScreen';
+import MentorshipVideos from './screens/MentorshipVideos';
 import TestimonialScreen from './screens/TestimonialScreen';
 
 const Stack = createNativeStackNavigator();
@@ -27,6 +28,10 @@ const StackNavigator = () => {
 						<Stack.Screen name="Hero" component={HeroScreen} />
 						<Stack.Screen name="Mastermind" component={MastermindScreen} />
 						<Stack.Screen name="Mentorship" component={MentorshipScreen} />
+						<Stack.Screen
+							name="MentorshipVideos"
+							component={MentorshipVideos}
+						/>
 						<Stack.Screen name="Github" component={GithubScreen} />
 						<Stack.Screen name="Testimonial" component={TestimonialScreen} />
 					</>
