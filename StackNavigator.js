@@ -9,7 +9,6 @@ import MastermindScreen from './screens/MastermindScreen';
 import MastermindVideos from './screens/MastermindVideos';
 import MentorshipScreen from './screens/MentorshipScreen';
 import MentorshipVideos from './screens/MentorshipVideos';
-import TestimonialScreen from './screens/TestimonialScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -38,7 +37,6 @@ const StackNavigator = () => {
 							component={MastermindVideos}
 						/>
 						<Stack.Screen name="Github" component={GithubScreen} />
-						<Stack.Screen name="Testimonial" component={TestimonialScreen} />
 					</>
 				) : (
 					<Stack.Screen name="Login" component={LoginScreen} />

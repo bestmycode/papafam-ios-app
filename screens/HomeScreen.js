@@ -26,7 +26,7 @@ const HomeScreen = () => {
 					/>
 				</TouchableOpacity>
 
-				<TouchableOpacity onPress={() => navigation.navigate('Testimonial')}>
+				<TouchableOpacity onPress={() => navigation.navigate('Hero')}>
 					<Image
 						style={tw`h-10 w-10 rounded-full`}
 						source={require('../assets/papareactlogo.png')}

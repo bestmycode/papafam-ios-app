@@ -14,7 +14,7 @@ const Header = ({ title }) => {
 
 			<Text style={tw`text-xl font-bold pl-2`}>{title}</Text>
 
-			<TouchableOpacity onPress={() => navigation.navigate('Testimonial')}>
+			<TouchableOpacity onPress={() => navigation.navigate('Home')}>
 				<Image
 					style={tw`h-10 w-10 rounded-full`}
 					source={require('../assets/papareactlogo.png')}
